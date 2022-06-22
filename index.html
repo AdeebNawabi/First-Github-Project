@@ -1,121 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>First Website</title>
-    <link rel="stylesheet" href="styles.css" />
-  </head>
-  <body>
-    <section>
-      <nav>
-        <figure class="picture">
-        <img src="./images/sidelines.png" class="logo" alt="" />
-      </figure>
-        <h1>Frontend Simplified</h1>
-        <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#discord">Discord</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </nav>
-      <header>
-        <div class="row">
-          <div class="home__description">
-            <h1>Best place to learn Frontend</h1>
-            <p class="subheader">
-              Go from absolute beginner to pro with a simplified process
-            </p>
-            <button class="home__description--button">Start Now</button>
-          </div>
-          <figure>
-            <img src="./images/screeen.jpg" alt="Home Page image" />
-          </figure>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section id="landing">
+        <nav>
+            <div class="nav__container">
+            <img class="logo" src="./assets/Library.svg" alt="">
+            <ul class="nav__links">
+                <li><a href="#" class="nav__link">Home</a></li>
+                <li><a href="#" class="nav__link">Contact</a></li>
+                <li><a href="#" class="nav__link nav__link--primary">Books</a></li>
+            </ul>
         </div>
-      </header>
+        </nav>
+        <header>
+            <div class="header__container">
+                <div class="header__description">
+                    <h1>Canadas most awarded online library platform</h1>
+                    <h2>Find your dream book with <span class="purple">Library</span></h2>
+                    <button class="btn">Browse Books</button>
+                </div>
+                <figure class="header__image--wrapper">
+                    <img src="./assets/Undraw_Books (1).svg" alt="">
+                </figure>
+            </div>
+        </header>
     </section>
-    <main>
-      <section id="about">
-        <h2>about</h2>
-        <div class="row">
-          <div class="section__description">
-            <div class="section__description--wrapper">
-              <div>
-                <p class="section__description--para">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                  Facere commodi beatae dicta aspernatur quo doloremque.
-                  Provident exercitationem alias omnis facilis excepturi
-                  veritatis ut, sit beatae, nisi, suscipit eum voluptates?
-                  Soluta.
-                </p>
-                <p class="section__description--para">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum
-                  consectetur adipisci aut quia repellat dolorem, quas
-                  distinctio earum in ipsa sunt ipsam necessitatibus eaque
-                  obcaecati. Et ut dolor sit corporis.
-                </p>
-              </div>
-            </div>
-            <figure class="about__img--wrapper">
-              <img src="./images/screeen.jpg" alt="about" />
-            </figure>
-          </div>
-        </div>
-      </section>
-
-      <section id="discord">
-        <h2>discord</h2>
-        <div class="row">
-          <div class="section__description">
-            <figure class="about__img--wrapper">
-              <img src="./images/Discord.png" alt="discord" />
-            </figure>
-            <div class="section__description--wrapper">
-              <p class="section__description--para">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id
-                ducimus animi, mollitia officiis quas accusamus explicabo! Sit,
-                beatae corporis, dicta maiores iusto minima laudantium iure
-                vitae voluptatibus molestiae in facilis?
-              </p>
-              <p class="section__description--para">
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                Possimus aut esse ab est repudiandae pariatur nesciunt
-                perferendis dolorum eum, ullam ipsa, porro vitae facilis cumque
-                id sint quis corrupti illo?
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section id="contact">
-        <h2>Contact</h2>
-        <form action="">
-          <span>Email</span>
-          <input type="email" placeholder="Jane@example.com" />
-          <span>Message</span>
-          <textarea
-            type="text"
-            placeholder="Cool webiste lets get connected"
-          ></textarea>
-          <button>Contact Us</button>
-        </form>
-      </section>
-    </main>
-    <footer>
-      <figure>
-        <img class="footer__logo" src="" alt="" />
-      </figure>
-      <div class="footer__links">
-        <ul>
-          <a class="footer__link" href="#about">About</a>
-          <a class="footer__link" href="#discord">Discord</a>
-          <a class="footer__link" href="#contact">Contact</a>
-          <a class="footer__link" href="courses"></a>
-        </ul>
-      </div>
-      <p>Copyright Frontend Simplified</p>
-    </footer>
-  </body>
+    
+</body>
 </html>
